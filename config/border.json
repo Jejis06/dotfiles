@@ -1,0 +1,15 @@
+{
+    "border-red": 235,
+    "border-green": 219,
+    "border-blue": 178,
+    
+    "border-radius": 4,
+    "border-width": 0.5,
+    "border-mode": "outside",
+    "disable-version-warning": false,
+
+    "positive-x-offset": 0,
+    "positive-y-offset": 0,
+    "negative-x-offset": 0,
+    "negative-y-offset": 0
+}

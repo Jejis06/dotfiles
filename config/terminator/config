@@ -1,0 +1,80 @@
+[global_config]
+  focus = system
+  title_transmit_bg_color = "#986a44"
+  title_receive_bg_color = "#c0bfbc"
+  enabled_plugins = LaunchpadBugURLHandler, LaunchpadCodeURLHandler, APTURLHandler, TerminatorThemes
+  always_split_with_profile = True
+  title_use_system_font = False
+  title_font = JetBrainsMono Nerd Font 10
+[keybindings]
+  toggle_scrollbar = <Primary><Shift><Alt>s
+  group_all = <Super>Delete
+[profiles]
+  [[default]]
+    background_color = "#282828"
+    background_darkness = 0.93
+    background_type = transparent
+    cursor_color = "#7c6f64"
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    palette = "#181818:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#ebdbb2:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+  [[gruvbox-dark]]
+    background_color = "#282828"
+    background_darkness = 0.88
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#7c6f64"
+    font = JetBrainsMono Nerd Font Mono 10
+    foreground_color = "#ebdbb2"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
+    use_system_font = False
+  [[gruvbox-light]]
+    background_color = "#eee8d5"
+    cursor_color = "#002b36"
+    foreground_color = "#002b36"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+  [[Zenburn]]
+    background_color = "#3f3f3f"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#73635a"
+    foreground_color = "#dcdccc"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#4d4d4d:#705050:#60b48a:#f0dfaf:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#e0cf9f:#94bff3:#ec93d3:#93e0e3:#ffffff"
+  [[WarmNeon]]
+    background_color = "#404040"
+    background_darkness = 0.85
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#30ff24"
+    foreground_color = "#afdab6"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#000000:#e24346:#39b13a:#dae145:#4261c5:#f920fb:#2abbd4:#d0b8a3:#fefcfc:#e97071:#9cc090:#ddda7a:#7b91d6:#f674ba:#5ed1e5:#d8c8bb"
+  [[Gruvbox Dark]]
+    background_color = "#1e1e1e"
+    background_darkness = 0.79
+    background_type = transparent
+    cursor_shape = ibeam
+    cursor_color = "#bbbbbb"
+    font = JetBrainsMono Nerd Font 10
+    foreground_color = "#e6d4a3"
+    show_titlebar = False
+    scrollbar_position = hidden
+    palette = "#161819:#f73028:#aab01e:#f7b125:#719586:#c77089:#7db669:#faefbb:#7f7061:#be0f17:#868715:#cc881a:#377375:#a04b73:#578e57:#e6d4a3"
+    use_system_font = False
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = gruvbox-dark
+      command = ""
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]

@@ -1,0 +1,56 @@
+"$schema" = 'https://starship.rs/config-schema.json'
+
+add_newline = true
+
+format="$directory$jobs$character"
+right_format="$all"
+
+[line_break]
+disabled = true
+
+[python]
+disabled=true
+
+[perl]
+disabled=true
+
+[c]
+disabled=true
+
+[character] 
+success_symbol = "[➜](bold cyan)" 
+error_symbol ="[➜](bold cyan)"
+
+[jobs]
+disabled = true
+
+[package]
+disabled = true
+
+[sudo]
+style = "bold blue"
+format = "[$symbol]($style)"
+symbol = " "
+disabled = false
+
+[directory]
+read_only = "."
+read_only_style = "bold blue"
+style = "bold blue"
+
+#TODO: SKONCZYC TE GLUPIE SSH
+[hostname]
+ssh_only = true
+ssh_symbol = ""
+style = "bold yellow"
+format = "[$ssh_symbol$hostname]($style) in "
+disabled = false
+
+[cmd_duration]
+style = "bold yellow"
+disabled = false
+format = "took [$duration]($style) "
+
+
+[battery]
+disabled = true
